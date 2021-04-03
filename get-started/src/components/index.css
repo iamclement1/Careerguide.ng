@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* nav links and buttons */
+.nav-link {
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff !important;
+  text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 1);
+}
+
+.nav-link:hover {
+  font-weight: 800;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.button-2 {
+  text-align: center;
+  position: relative;
+
+  font-size: 20px !important;
+}
+
+.btn-primary:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+/* container-1 */
+.container-1 {
+  position: relative;
+  height: 600px;
+}
+
+.container-1 .navbar-brand img {
+  width: 100px;
+  height: 72px;
+  position: relative;
+}
+
+.container-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("C:/Users/Abdulrahman Bamidele/Desktop/github/Careerguide.ng/get-started/src/images/bg-1.jpg")
+    no-repeat center center / cover;
+  opacity: 0.6;
+}
+
+.container-1::after {
+  opacity: 0.6;
+}
+
+/* container-2 */
+.container-2 {
+  position: relative;
+  width: 500px;
+  margin: 40px auto;
+  border-radius: 30px;
+  color: #fff !important;
+}
+
+.container-2.bg-custom {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container-2 .border-primary {
+  border-top: 3px solid #4981b3 !important;
+}
+
+.home-hero h1 {
+  position: relative;
+  text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 1);
+}
+
+.home-hero p {
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff !important;
+  text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 1);
+}
+
+/* searchbar */
+.elementsContainer {
+  position: relative;
+  width: 400px;
+  height: 100%;
+  vertical-align: middle;
+  margin: 20px auto;
+}
+
+.elementsContainer .form-control {
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding: 0px 5px;
+  padding-left: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.elementsContainer .form-control:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+::placeholder {
+  font-size: 14px;
+}
+
+.elementsContainer .btn {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+/* small screen size */
+@media (max-width: 576px) {
+  .container-2 {
+    width: 300px;
+    height: 350px;
+  }
+  .container-2 p {
+    font-size: 12px;
+  }
+}
