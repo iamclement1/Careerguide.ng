@@ -12,14 +12,12 @@ body {
 
 /* nav links and buttons */
 .nav-link {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 17px;
-  color: #fff !important;
-  text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 1);
 }
 
 .nav-link:hover {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .navbar-toggler:focus {
@@ -41,6 +39,18 @@ body {
   box-shadow: none !important;
 }
 
+.dropdown-menu-custom {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border: none !important;
+  outline: none !important;
+  width: 100px !important;
+}
+
+.dropdown-item {
+  font-weight: 600 !important;
+  font-size: 17px !important;
+}
+
 /* container-1 */
 .container-1 {
   position: relative;
@@ -53,63 +63,34 @@ body {
   position: relative;
 }
 
-.container-1::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: url("C:/Users/Abdulrahman Bamidele/Desktop/github/Careerguide.ng/get-started/src/images/bg-1.jpg")
-    no-repeat center center / cover;
-  opacity: 0.6;
-}
-
-.container-1::after {
-  opacity: 0.6;
+.navbar-brand p {
+  font-weight: 700;
 }
 
 /* container-2 */
-.container-2 {
-  position: relative;
-  width: 500px;
-  margin: 40px auto;
-  border-radius: 30px;
-  color: #fff !important;
-}
-
-.container-2.bg-custom {
-  background-color: rgba(0, 0, 0, 0.4);
-}
 
 .container-2 .border-primary {
   border-top: 3px solid #4981b3 !important;
 }
 
 .home-hero h1 {
-  position: relative;
-  text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 1);
 }
 
 .home-hero p {
-  position: relative;
   font-size: 16px;
   font-weight: 400;
-  color: #fff !important;
-  text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 1);
 }
 
 /* searchbar */
 .elementsContainer {
-  position: relative;
   width: 400px;
-  height: 100%;
+  height: 40px;
   vertical-align: middle;
   margin: 20px auto;
+  margin-left: 0px;
 }
 
 .elementsContainer .form-control {
-  border: none;
   height: 100%;
   width: 100%;
   padding: 0px 5px;
@@ -139,11 +120,19 @@ body {
 
 /* small screen size */
 @media (max-width: 576px) {
-  .container-2 {
-    width: 300px;
-    height: 350px;
-  }
-  .container-2 p {
-    font-size: 12px;
-  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) {
+}
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (max-width: 1400px) {
 }
