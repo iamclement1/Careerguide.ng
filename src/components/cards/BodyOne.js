@@ -31,6 +31,8 @@ const BodyOne = () => {
                 <p>Do you want to be the first to recieve information about offers, services, scholarships, educational materials and general updates? then sign up for our Monthly news letter</p>
                 <form>
                     <input placeholder="Email Address"></input>
+                    <span></span>
+                    <span></span>
                     <button type="submit">Subscribe</button>
                 </form>
             </div>
