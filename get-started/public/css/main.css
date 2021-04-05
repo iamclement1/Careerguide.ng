@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: red 2px solid; */
+  }
+  
+  .brand-logo {
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+  }
+  
+  .bg {
+    margin-top: 3em;
+    background: url('./img/students.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 2em;
+  }
+  
+  .student-img {
+    position: relative;
+    height: 91%;
+    right: 15em;
+    top: 5em;
+  }
+  .form-group {
+    padding-top: 18em;
+    padding-left: 15em;
+  }
+  
+  .form-group p {
+    font-size: 24px;
+  }
+  
+  .form-group .btn {
+    margin-top: 3em;
+  }
+  .header-text {
+    width: 100%;
+    color: #fff;
+  }
+  
+  .header-text h3 {
+    font-size: 3em;
+    color: #4571da;
+  }
+  
+  .form-group input {
+    width: 80%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    padding: 1em;
+    color: #fff;
+    height: 50px;
+  }
+  
+  #overlay {
+    /* position: relative; */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    /* z-index: 2; Specify a stack order in case you're using a different order for other elements */
+  }
+  
+  nav ul li a {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Poppins' sans-serif;
+  }
+  
+  nav ul li a:hover {
+    color: aqua;
+  }
+  
+  .c-wrapper {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 100%; /* use this, or not */
+    margin: auto;
+  }
+  
+  .links {
+    padding-top: 2em;
+    margin-top: 3em;
+    background: #4571da;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .links li {
+    text-decoration: none;
+  }
+  
+  .links ul li a {
+    color: #fff;
+  }
+  
+  .links a:hover {
+    text-decoration: none;
+  }
+  
+  footer {
+    width: 100%;
+    margin: auto;
+  }
