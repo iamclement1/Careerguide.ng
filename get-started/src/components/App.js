@@ -4,11 +4,18 @@ import Footer from "./footer";
 import { Container } from "react-bootstrap";
 import SignUp from "./signUp";
 import Header from "./Header";
+import NavBar from "./NavBar";
+import MainSection1 from "./MainSection1";
+import MainSection2 from "./MainSection2";
 
 function App() {
   return (
         <div className="header-section">
+          <NavBar></NavBar>
           <Header></Header>
+          <MainSection1></MainSection1>
+          <MainSection2></MainSection2>
+
         </div>
 
 
