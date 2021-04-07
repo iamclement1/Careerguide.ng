@@ -1,22 +1,22 @@
 //import logo from "./logo.svg";
-import "../App.css";
-import Footer from "./footer";
-import { Container } from "react-bootstrap";
-import SignUp from "./signUp";
-import Header from "./Header";
+//import "../App.css";
+//import Footer from "./footer";
+//import { Container } from "react-bootstrap";
+//import SignUp from "./signUp";
+//import Header from "./Header";
+import WorkWithUs from "./WorkWithUs";
 
 function App() {
   return (
-        <div className="header-section">
-          <Header></Header>
-        </div>
+    <div>
+      <WorkWithUs />
+    </div>
 
+    /*<div className="header-section">
+      <Header></Header>
+    </div>*/
 
-
-
-
-
-   /* <Container
+    /* <Container
       className="d-flex align-items-center justify-content-center"
       style={{ minHeight: "100vh" }}
     >
