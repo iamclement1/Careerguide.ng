@@ -194,6 +194,7 @@ margin: 50px;
   list-style: none;
   display: flex;
   justify-content: space-between;
+  color: purple;
 }
 .nigeria-universities h2{
   text-align: center;
