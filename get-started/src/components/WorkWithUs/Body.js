@@ -8,8 +8,9 @@ const Body = () => {
         students and individuals in their academic career? Are you a
         target-driven individual and can work effectively without close
         moniitoring? Are you highly versatile or open to learning new things and
-        having new experinces ?
+        having new experiences ?
       </p>
+      <br />
       <p>
         Youths and Careers is interested in working with changemakers like you!
         Do not worry about your proficiency level in the skills you possess - we

@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <div>
+    <div className="WorkWithFooter">
       <span>
         <FaRegCopyright /> 2021-2025 Youths and Career
       </span>
@@ -34,11 +34,11 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-      <ul>
-        <li>
+      <ul className="Policies">
+        <li id="After">
           <a>Privacy Policy</a>
         </li>
-        <li>
+        <li id="After">
           <a>Terms of Use</a>
         </li>
         <li>

@@ -137,10 +137,46 @@ body {
   border-top-left-radius: 0px;
 }
 .WorkWithNav {
+  background-color: #f0f0f0;
+  overflow: none;
+  padding: 20px 0 10px 0;
   width: 100%;
-  background-color: #555;
-  overflow: auto;
+  font-family: "Poppins";
+  font-size: 35px;
 }
+.WorkWithNav > .YC {
+  font-size: 30px;
+  margin-right: 50px;
+  text-decoration: none;
+}
+.YC img {
+  height: 62px;
+  width: auto;
+}
+.WorkWithNav a {
+  text-align: center;
+  padding: 12px;
+  margin-right: 30px;
+}
+.SearchBar {
+  width: 150px;
+  height: 40px;
+  padding-left: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 3px 5px 5px 0px #dbd1c9;
+}
+::-webkit-input-placeholder {
+  font-size: 25px;
+}
+:-ms-input-placeholder {
+  font-size: 25px;
+}
+
+::placeholder {
+  font-size: 25px;
+}
+
 .WorkWithBG {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./img/WorkWithBG.png);
@@ -155,7 +191,7 @@ body {
 }
 
 .WorkWithBG h1 {
-  font-size: 130px;
+  font-size: 120px;
   font-family: "Quantico";
   line-height: 185.9px;
   letter-spacing: -0.065em;
@@ -163,7 +199,7 @@ body {
 
 .WorkWithBG p {
   font-family: "Poppins";
-  font-size: 72px;
+  font-size: 62px;
   line-height: 108px;
   letter-spacing: -0.065em;
 }
@@ -171,11 +207,79 @@ body {
   width: 111px;
   height: 72px;
 }
-.BodySection {
-  font-family: "Montserrat";
-  margin: auto;
-}
 
+.WorkWithHead {
+  color: #4571da;
+  text-align: center;
+  font-size: 62px;
+  margin-bottom: 30px;
+}
+.BodySection {
+  margin: 50px 50px;
+  font-size: 40px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 52.14px;
+  color: #3d3d3d;
+}
+.WorkWithSection {
+  list-style-type: none;
+  background-color: #0a1650;
+  padding-bottom: 100px;
+}
+#section {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  padding: 70px 0 0 100px;
+}
+#section ul {
+  margin-right: 300px;
+}
+.WorkWithSection li {
+  list-style-type: none;
+}
+.Extras {
+  margin: 50px 0 0 270px;
+}
+.Extras img {
+  height: 50px;
+  width: auto;
+  margin-right: 30px;
+  float: left;
+}
+.Extras Button {
+  background-color: #fff;
+  color: #0a1650;
+  float: right;
+  margin-right: 20px;
+  padding: 7px;
+  border-radius: 5px;
+}
+.WorkWithFooter {
+  display: flex;
+  margin: 100px 0 0 100px;
+  font-size: 20px;
+}
+.WorkWithFooter,
+.WorkWithFooter a {
+  color: #878787;
+}
+.WorkWithFooter span {
+  margin-right: 60px;
+}
+.WorkWithFooter li {
+  list-style-type: none;
+  display: inline;
+}
+.Socials li {
+  margin-right: 50px;
+}
+#After::after {
+  margin: 0 40px;
+  content: "|";
+}
 /* small screen size */
 @media (max-width: 576px) {
   .container-2 {

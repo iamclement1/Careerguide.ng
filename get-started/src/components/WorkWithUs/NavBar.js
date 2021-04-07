@@ -4,14 +4,14 @@ import SearchBar from "./SearchBar";
 
 const NavBar = () => {
   return (
-    <ul className="WorkWithNav">
-      <a>
+    <div className="WorkWithNav">
+      <a className="YC">
         <img
           className="WorkWithLogo"
           src={YCLogo}
           alt="YouthsandCareers Logo"
         />
-        Youthsandcareers
+        YouthsandCareers
       </a>
       <a>Home</a>
       <a>
@@ -23,7 +23,7 @@ const NavBar = () => {
       <a>
         <SearchBar />
       </a>
-    </ul>
+    </div>
   );
 };
 
