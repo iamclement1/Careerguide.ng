@@ -13,16 +13,15 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+
 /* nav links and buttons */
 .nav-link {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 17px;
-  color: #fff !important;
-  text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 1);
 }
 
 .nav-link:hover {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .navbar-toggler:focus {
@@ -44,18 +43,35 @@ body {
   box-shadow: none !important;
 }
 
+.dropdown-menu-custom {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  border: none !important;
+  outline: none !important;
+  width: 100px !important;
+}
+
+.dropdown-item {
+  font-weight: 600 !important;
+  font-size: 17px !important;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
 /* container-1 */
 .container-1 {
   position: relative;
   height: 600px;
 }
 
-.container-1 .navbar-brand img {
+.navbar-brand img {
   width: 100px;
   height: 72px;
   position: relative;
 }
 
+<<<<<<< HEAD
 .container-1::before {
   content: "";
   position: absolute;
@@ -69,49 +85,35 @@ body {
 
 .container-1::after {
   opacity: 0.6;
+=======
+.navbar-brand p {
+  font-weight: 700;
+>>>>>>> 5afc3de130bf2a54d719aebca0e054b133473c95
 }
 
 /* container-2 */
-.container-2 {
-  position: relative;
-  width: 500px;
-  margin: 40px auto;
-  border-radius: 30px;
-  color: #fff !important;
-}
-
-.container-2.bg-custom {
-  background-color: rgba(0, 0, 0, 0.4);
-}
 
 .container-2 .border-primary {
   border-top: 3px solid #4981b3 !important;
 }
 
-.home-hero h1 {
-  position: relative;
-  text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 1);
-}
+/*.home-hero h1 {
+}*/
 
 .home-hero p {
-  position: relative;
   font-size: 16px;
   font-weight: 400;
-  color: #fff !important;
-  text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 1);
 }
 
 /* searchbar */
 .elementsContainer {
-  position: relative;
-  width: 400px;
-  height: 100%;
+  width: 42%;
+  height: 40px;
   vertical-align: middle;
-  margin: 20px auto;
+  margin-left: 10px;
 }
 
 .elementsContainer .form-control {
-  border: none;
   height: 100%;
   width: 100%;
   padding: 0px 5px;
@@ -120,6 +122,7 @@ body {
   border-top-left-radius: 20px;
   border-bottom-right-radius: 0px;
   border-top-right-radius: 0px;
+  font-size: 12px;
 }
 
 .elementsContainer .form-control:focus {
@@ -128,16 +131,13 @@ body {
   box-shadow: none !important;
 }
 
-::placeholder {
-  font-size: 14px;
-}
-
 .elementsContainer .btn {
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px;
 }
+<<<<<<< HEAD
 .WorkWithLogo {
   height: 120px;
   width: auto;
@@ -357,4 +357,170 @@ body {
   .container-2 p {
     font-size: 12px;
   }
+=======
+/* main-section1 */
+.container-ms .btn-2 {
+  padding-top: 55px;
+}
+
+.icons1 {
+  font-size: 80px;
+  color: #4981b3;
+}
+
+.container-ms h5 {
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 7px;
+}
+.container-ms p {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+/* main-section2 */
+.container-4 {
+  background-color: rgba(0, 22, 80, 1);
+}
+
+.container-4 .elementsContainer {
+  width: 100%;
+  font-size: 14px;
+}
+
+.container-4 .elementsContainer .btn {
+  height: 100%;
+}
+
+.container-4 .container-5 {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container-4 h5 {
+  color: #fff;
+}
+
+.container-4 p {
+  color: #fff;
+}
+
+.container-4 .container-5 h5 {
+  color: black;
+  padding-top: 10px;
+}
+
+.container-4 .container-5 p {
+  color: black;
+}
+
+
+/*University page*/
+
+.welcome{
+  text-align: center;
+  color: #071D69;
+  
+}
+.nigeria-universities .form-select{
+  padding: 10px;
+  color: #071D69;
+  width: 35rem;
+}
+
+.nigeria-universities{
+  padding: 40px;
+}
+
+.universities{
+  text-align: center;
+  text-transform: uppercase; 
+}
+
+.university-nav .text-primary {
+  text-align: center;
+  text-transform: uppercase;
+  color: #6A8DE1 ;
+  padding: 20px;
+  margin-top: 20px;
+
+}
+.university-nav .card-img{
+filter: brightness(50%)
+}
+
+.university-nav .text-white{
+font-size: 42px;
+text-align: center;
+}
+
+.university-nav p{
+margin-top: 250px;
+}
+
+.select-university{
+ border: 1px solid #6A8DE1;
+ border-radius: 10px;
+ height: 100px;
+ background-color:#6A8DE1;
+ color: white;
+
+}
+
+
+/* small screen size */
+@media (max-width: 576px) {
+.university-nav p{
+margin-top: 50px;
+}
+.university-nav .text-white{
+font-size: 18px;
+text-align: center;
+}
+
+.nigeria-universities .form-select{
+  padding: 10px;
+  color: #071D69;
+  width: 20rem;
+}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+    .university-nav p{
+margin-top: 150px;
+}
+.university-nav .text-white{
+font-size: 24px;
+text-align: center;
+}
+.nigeria-universities .form-select{
+  padding: 10px;
+  color: #071D69;
+  width: 20rem;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) {
+     .university-nav p{
+margin-top: 150px;
+}
+.university-nav .text-white{
+font-size: 32px;
+text-align: center;
+}
+.nigeria-universities .form-select{
+  padding: 10px;
+  color: #071D69;
+  width: 20rem;
+}
+}
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (max-width: 1400px) {
+>>>>>>> 5afc3de130bf2a54d719aebca0e054b133473c95
 }
