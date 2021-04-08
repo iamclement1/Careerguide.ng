@@ -13,7 +13,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-
 /* nav links and buttons */
 .nav-link {
   font-weight: 600;
@@ -71,7 +70,6 @@ body {
   position: relative;
 }
 
-<<<<<<< HEAD
 .container-1::before {
   content: "";
   position: absolute;
@@ -85,10 +83,6 @@ body {
 
 .container-1::after {
   opacity: 0.6;
-=======
-.navbar-brand p {
-  font-weight: 700;
->>>>>>> 5afc3de130bf2a54d719aebca0e054b133473c95
 }
 
 /* container-2 */
@@ -137,7 +131,6 @@ body {
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px;
 }
-<<<<<<< HEAD
 .WorkWithLogo {
   height: 120px;
   width: auto;
@@ -357,170 +350,4 @@ body {
   .container-2 p {
     font-size: 12px;
   }
-=======
-/* main-section1 */
-.container-ms .btn-2 {
-  padding-top: 55px;
-}
-
-.icons1 {
-  font-size: 80px;
-  color: #4981b3;
-}
-
-.container-ms h5 {
-  font-weight: 700;
-  font-size: 20px;
-  padding-bottom: 7px;
-}
-.container-ms p {
-  font-size: 16px;
-  padding-bottom: 10px;
-}
-
-/* main-section2 */
-.container-4 {
-  background-color: rgba(0, 22, 80, 1);
-}
-
-.container-4 .elementsContainer {
-  width: 100%;
-  font-size: 14px;
-}
-
-.container-4 .elementsContainer .btn {
-  height: 100%;
-}
-
-.container-4 .container-5 {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.container-4 h5 {
-  color: #fff;
-}
-
-.container-4 p {
-  color: #fff;
-}
-
-.container-4 .container-5 h5 {
-  color: black;
-  padding-top: 10px;
-}
-
-.container-4 .container-5 p {
-  color: black;
-}
-
-
-/*University page*/
-
-.welcome{
-  text-align: center;
-  color: #071D69;
-  
-}
-.nigeria-universities .form-select{
-  padding: 10px;
-  color: #071D69;
-  width: 35rem;
-}
-
-.nigeria-universities{
-  padding: 40px;
-}
-
-.universities{
-  text-align: center;
-  text-transform: uppercase; 
-}
-
-.university-nav .text-primary {
-  text-align: center;
-  text-transform: uppercase;
-  color: #6A8DE1 ;
-  padding: 20px;
-  margin-top: 20px;
-
-}
-.university-nav .card-img{
-filter: brightness(50%)
-}
-
-.university-nav .text-white{
-font-size: 42px;
-text-align: center;
-}
-
-.university-nav p{
-margin-top: 250px;
-}
-
-.select-university{
- border: 1px solid #6A8DE1;
- border-radius: 10px;
- height: 100px;
- background-color:#6A8DE1;
- color: white;
-
-}
-
-
-/* small screen size */
-@media (max-width: 576px) {
-.university-nav p{
-margin-top: 50px;
-}
-.university-nav .text-white{
-font-size: 18px;
-text-align: center;
-}
-
-.nigeria-universities .form-select{
-  padding: 10px;
-  color: #071D69;
-  width: 20rem;
-}
-}
-
-/* Medium devices (tablets, 768px and up)*/
-@media (max-width: 768px) {
-    .university-nav p{
-margin-top: 150px;
-}
-.university-nav .text-white{
-font-size: 24px;
-text-align: center;
-}
-.nigeria-universities .form-select{
-  padding: 10px;
-  color: #071D69;
-  width: 20rem;
-}
-}
-
-/* Large devices (desktops, 992px and up)*/
-@media (max-width: 992px) {
-     .university-nav p{
-margin-top: 150px;
-}
-.university-nav .text-white{
-font-size: 32px;
-text-align: center;
-}
-.nigeria-universities .form-select{
-  padding: 10px;
-  color: #071D69;
-  width: 20rem;
-}
-}
-/* X-Large devices (large desktops, 1200px and up)*/
-@media (max-width: 1200px) {
-}
-
-/* XX-Large devices (larger desktops, 1400px and up)*/
-@media (max-width: 1400px) {
->>>>>>> 5afc3de130bf2a54d719aebca0e054b133473c95
 }
