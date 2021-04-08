@@ -1,58 +1,57 @@
-import Button from "./Button";
-import AppStore from "../img/AppStore.png";
-import PlayStore from "../img/PlayStore.png";
+import ButtonHelp from "./ButtonHelp";
+import { Container, Row } from "react-bootstrap";
+import Footer from "./Footer";
 const WorkWithSection = () => {
   return (
     <div className="WorkWithSection">
       <div id="section">
         <ul>
           <li>
-            <a>About Us</a>
+            <span>About Us</span>
           </li>
           <li>
-            <a>Our Partners</a>
+            <a href="#">Our Partners</a>
           </li>
           <li>
-            <a>Advertise</a>
+            <a href="#">Advertise</a>
           </li>
           <li>
-            <a>Get Involved</a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a>Resources</a>
-          </li>
-          <li>
-            <a>Blog</a>
-          </li>
-          <li>
-            <a>Virtual Tour</a>
-          </li>
-          <li>
-            <a>Tutorials</a>
+            <a href="#">Get Involved</a>
           </li>
         </ul>
         <ul>
           <li>
-            <a>Services</a>
+            <span>Resources</span>
           </li>
           <li>
-            <a>Advice</a>
+            <a href="#">Blog</a>
           </li>
           <li>
-            <a>Scholarships</a>
+            <a href="#">Virtual Tour</a>
           </li>
           <li>
-            <a>Tutorials</a>
+            <a href="#">Tutorials</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <span>Services</span>
+          </li>
+          <li>
+            <a href="#">Advice</a>
+          </li>
+          <li>
+            <a href="#">Scholarships</a>
+          </li>
+          <li>
+            <a href="#">Tutorials</a>
           </li>
         </ul>
       </div>
       <div className="Extras">
-        <img src={AppStore} alt="Download on App Store" />
-        <img src={PlayStore} alt="Download on Play Store" />
-        <Button />
+        <ButtonHelp />
       </div>
+      <Footer />
     </div>
   );
 };

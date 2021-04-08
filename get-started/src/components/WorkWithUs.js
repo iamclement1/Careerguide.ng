@@ -3,7 +3,6 @@ import NavBar from "./WorkWithUs/NavBar";
 import HeadSection from "./WorkWithUs/HeadSection";
 import Body from "./WorkWithUs/Body";
 import WorkWithSection from "./WorkWithUs/WorkWithSection";
-import Footer from "./WorkWithUs/Footer";
 
 const WorkWithUs = () => {
   return (
@@ -12,7 +11,6 @@ const WorkWithUs = () => {
       <HeadSection />
       <Body />
       <WorkWithSection />
-      <Footer />
     </div>
   );
 };

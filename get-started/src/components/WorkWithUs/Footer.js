@@ -7,6 +7,12 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => {
+  const iconStyle = {
+    //fontSize: "30px",
+    "@media (max-width: 576px)": {
+      fontSize: "10px",
+    },
+  };
   return (
     <div className="WorkWithFooter">
       <span>
@@ -14,23 +20,23 @@ const Footer = () => {
       </span>
       <ul className="Socials">
         <li>
-          <a href="">
-            <FaTwitter />
+          <a href="#">
+            <FaTwitter style={iconStyle} />
           </a>
         </li>
         <li>
-          <a href="">
-            <FaFacebook />
+          <a href="#">
+            <FaFacebook style={iconStyle} />
           </a>
         </li>
         <li>
-          <a href="">
-            <FaInstagram />
+          <a href="#">
+            <FaInstagram style={iconStyle} />
           </a>
         </li>
         <li>
-          <a href="">
-            <FaLinkedin />
+          <a href="#">
+            <FaLinkedin style={iconStyle} />
           </a>
         </li>
       </ul>
