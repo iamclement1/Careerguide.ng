@@ -65,8 +65,6 @@ export default function Universities() {
 
             <a href="#">More States....</a>
           </div>
-
-
           <div className="select-university col-sm-4">
 
             <div className="form-check">
