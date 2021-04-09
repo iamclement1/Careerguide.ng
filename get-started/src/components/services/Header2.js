@@ -1,4 +1,4 @@
-import "./Header2.css";
+import "./Header2.css"
 const Header2 = () => {
     return ( 
         <div className="hi">

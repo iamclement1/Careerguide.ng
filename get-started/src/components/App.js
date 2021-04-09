@@ -12,11 +12,11 @@ import Header2 from "./services/Header2.js"
 function App() {
   return (
     <div className="header-section">
-      {/* <NavBar></NavBar>
+      <NavBar></NavBar>
       <Header></Header>
       <MainSection1></MainSection1>
       <MainSection2></MainSection2>
-      <Universities></Universities> */}
+      <Universities></Universities>
       <NavBar/>
       <Header2/>
       <Services/>
