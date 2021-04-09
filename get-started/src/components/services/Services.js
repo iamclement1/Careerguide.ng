@@ -1,5 +1,5 @@
 import "./Services.css"
-import Buttons from "./Buttons"
+import Button from "./Button"
 
 const Services = () => {
     return (  
@@ -20,7 +20,7 @@ const Services = () => {
                     <img src="./logo.png" alt="logo"/>
                 </div>
             </div>
-            <Buttons/>
+            <Button/>
         </div>
     );
 }
